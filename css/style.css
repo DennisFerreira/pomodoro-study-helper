@@ -1,0 +1,52 @@
+label,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+}
+body {
+  background-color: #78abc6;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(
+    to right,
+    #78abc6,
+    #f2d7e0,
+    #c6c9d0,
+    #b8d8b3,
+    #c4bfe7
+  );
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.geral {
+  margin: auto;
+  display: flex;
+}
+
+.painel {
+  background-color: #c4bfe7;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px 30px;
+  border-radius: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.minutos::after {
+  content: ' :';
+  color: black;
+}
+.visor {
+  margin: 30px;
+}
+.visor span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+
+.controlador {
+  margin: 20px;
+}
